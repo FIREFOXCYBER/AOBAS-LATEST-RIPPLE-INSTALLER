@@ -71,6 +71,7 @@ START=$(date +%s)
 echo "Installing dependencies..."
 apt-get update
 ## SOME UPDATES FOR GCP VPSES OR OTHER VPS PROVIDER
+sudo apt-get install software-properties-common
 sudo apt-get install build-essential autoconf libtool pkg-config python-opengl python-imaging python-pyrex python-pyside.qtopengl idle-python2.7 qt4-dev-tools qt4-designer libqtgui4 libqtcore4 libqt4-xml libqt4-test libqt4-script libqt4-network libqt4-dbus python-qt4 python-qt4-gl libgle3 python-dev -y	 
 sudo add-apt-repository ppa:deadsnakes/ppa -y
 sudo apt-get update
